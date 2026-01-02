@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Form</title>
+
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2> Fill Registration Form</h2>
+
+    <% if (error) { %>
+      <div class="error"><%= error %></div>
+    <% } %>
+
+    <form action="/submit" method="POST" id="regForm" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" value="<%= values.name || '' %>" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" value="<%= values.email || '' %>" required>
+
+       <label for="password">Password</label>
+  
+       <input id="password" name="password" type="password" required>
+      <p id="strength" class="small"></p>
+
+      <button type="submit">Submit</button>
+    </form>
+     
+  </div>
+
+
+
+</body>
+</html>

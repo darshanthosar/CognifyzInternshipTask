@@ -1,0 +1,27 @@
+Cognifyz Internship 2025 - Full Stack Development Project
+Created by: Darshan Thosar
+
+Task Summary:
+* Task 1: HTML Structure (index.ejs)
+* Task 2: Server setup using express (server.js)
+* Task 3: Responsive CSS styling (style.css)
+* Task 4: JavaScript for validation (main.js)
+* Task 5: Data Rendering after Form Submission (success.ejs)
+
+How to Run the Project:
+
+1️⃣ Open project folder in VS Code.
+
+2️⃣ Open Terminal -> run "npm install"
+
+3️⃣ Start server -> "npm run dev"
+
+4️⃣ Open browser -> http://localhost:3000
+
+5️⃣ Fill the form -> Submit -> Success page will appear.
+
+Technologies Used:
+- HTML (EJS Templates)
+- CSS (Responsive design)
+- JavaScript (Validation + Password strength)
+- Node.js + Express (Backend server)

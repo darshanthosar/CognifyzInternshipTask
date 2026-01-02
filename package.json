@@ -1,0 +1,20 @@
+{
+  "name": "cognifyz_internship2025",
+  "version": "1.0.0",
+  "description": "Internship Task by cognifyz",
+  "main":"TASK_2_SERVER_SETUP/server.js",
+  "scripts": {
+    "start":"node TASK_2_SERVER_SETUP/server.js",
+    "dev":"nodemon TASK_2_SERVER_SETUP/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
